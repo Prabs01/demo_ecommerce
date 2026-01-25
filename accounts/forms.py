@@ -8,3 +8,5 @@ class RegistrationForm(forms.ModelForm):
         model = User
         fields = ['username', 'email', 'password']
 
+class LoginForm(forms.ModelForm):
+    pass
